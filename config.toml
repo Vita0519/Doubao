@@ -1,0 +1,44 @@
+[Doubao]
+# 是否启用插件
+enable = true
+
+# 豆包API配置
+conversation_id = ""  # 必需
+cookie = "" # 必需
+
+# 命令触发配置
+# 只有以下命令开头的消息才会触发豆包能力
+commands = [
+    "#豆包",
+    "#豆",
+    "#doubao",
+    "/豆包",
+    "/db",
+    "/doubao",
+    "豆包",
+    "doubao",
+    "@豆包",
+    "@db",
+    "@doubao",
+    "豆",
+    "db"
+]
+
+# 聊天配置
+private_chat = true  # 是否允许私聊
+group_chat = true   # 是否允许群聊
+admin_only = false   # 是否仅管理员可用
+bot_wxid = ""  # 修改为实际被@的wxid,机器人wxid
+daily_limit = 20    # 每人每日对话次数限制
+
+# 会话模式配置
+session_timeout = 30  # 会话超时时间（秒），默认30秒
+
+# 引用消息功能配置
+enable_quote = true  # 是否启用引用消息回复功能，设为false可避免与元宝的引用功能冲突
+private_quote = true  # 是否允许在私聊中响应引用消息
+group_quote = true   # 是否允许在群聊中响应引用消息
+quote_require_at = true  # 群聊中引用消息是否需要同时@机器人才响应
+
+# 管理员列表
+admin_list = [] 
