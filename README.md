@@ -34,7 +34,6 @@ enable = true
 
 # 豆包API配置
 conversation_id = "你的豆包会话ID"  # 必需
-section_id = "你的豆包区块ID"  # 必需
 cookie = "你的豆包cookie"    # 必需，用于API认证
 ```
 
