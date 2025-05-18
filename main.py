@@ -19,7 +19,7 @@ class Doubao(PluginBase):
     name = "Doubao"
     description = "字节跳动豆包AI助手,支持对话和图片生成"
     author = "阿孟"
-    version = "1.2.0"
+    version = "1.2.1"
 
     def __init__(self):
         super().__init__()
